@@ -1,4 +1,4 @@
-# hold-agent
+#hold-agent
 * 个轻量的主机观察者,帮你轻松掌控主机并揪出不安分进程
 * 无需配置，一行命令，即刻开始使用
 * 简单点击回溯历史，揪出可疑进程
@@ -11,8 +11,16 @@
 * agent.exe 主机观察者windows安装文件
 
 #如何使用
-USER_KEY 您在highwe.net上注册用户的密钥
-开机启动主机观察者,需要使用sudo权限运行
-<pre><code>
-sudo agent-install.sh  USER_KEY
+* `USER_KEY` 您在[id]:/images/logo-black.png [HOLD](http://highwe.net/hostList)上注册用户的密钥
+* 开机启动,需要使用`sudo`权限运行
+<pre>
+<code>sudo agent-install.sh  USER_KEY
 </code></pre>
+* 源码启动
+<pre>
+<code>python agent.py USER_KEY</code>
+</pre>
+* windows启动 双击`agent.exe`文件
+
+#查看主机性能
+通过访问[HOLD](http://highwe.net/hostList) 来查看您的主机性能信息。
