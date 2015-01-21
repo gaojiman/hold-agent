@@ -1,4 +1,4 @@
-#hold-agent
+#hold-agent !/images/logo-black.png 
 * 个轻量的主机观察者,帮你轻松掌控主机并揪出不安分进程
 * 无需配置，一行命令，即刻开始使用
 * 简单点击回溯历史，揪出可疑进程
@@ -11,7 +11,7 @@
 * agent.exe 主机观察者windows安装文件
 
 #如何使用
-* `USER_KEY` 您在[id]:/images/logo-black.png [HOLD](http://highwe.net/hostList)上注册用户的密钥
+* `USER_KEY` 您在[HOLD](http://highwe.net/hostList)上注册用户的密钥
 * 开机启动,需要使用`sudo`权限运行
 <pre>
 <code>sudo agent-install.sh  USER_KEY
