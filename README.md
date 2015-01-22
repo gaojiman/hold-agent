@@ -8,19 +8,13 @@
 * agent-install.sh 主机观察者安装和开机启动脚本
 * agent-uninstall.sh 主机观察者卸载脚本
 * agent.py 主机观察者程序,为了让您放心, 我们将这个 python 写的小程序开源了
-* agent.exe 主机观察者windows安装文件
 
 #如何使用
 * `USER_KEY` 您在[HOLD](http://highwe.net/profile#user)上注册用户的密钥
 * 开机启动,需要使用`sudo`权限运行
-<pre>
-<code>sudo agent-install.sh  USER_KEY
-</code></pre>
+```sudo agent-install.sh  USER_KEY```
 * 源码启动
-<pre>
-<code>python agent.py USER_KEY</code>
-</pre>
-* windows启动 双击`agent.exe`文件
+```python agent.py USER_KEY```
 
 #查看主机性能
 通过访问[HOLD](http://highwe.net/hostList) 来查看您的主机性能信息。
