@@ -1,4 +1,4 @@
-#![images/logo-black.png](images/logo-black.png =40x40)hold-agent 
+#<img src="images/logo-black.png" style="width:40px"/>hold-agent 
 * 个轻量的主机观察者,帮你轻松掌控主机并揪出不安分进程
 * 无需配置，一行命令，即刻开始使用
 * 简单点击回溯历史，揪出可疑进程
